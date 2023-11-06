@@ -12,4 +12,5 @@ class TasksList: Object {
     @Persisted var name = ""
     @Persisted var date = Date()
     @Persisted var tasks = List<Task>()
+    @Persisted var sortIndex = 0
 }

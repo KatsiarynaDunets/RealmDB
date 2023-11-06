@@ -21,6 +21,8 @@
 		527BFD232AF29F6800719F61 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 527BFD222AF29F6800719F61 /* Realm */; };
 		527BFD252AF29F6800719F61 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 527BFD242AF29F6800719F61 /* RealmSwift */; };
 		52A787C52AF6E47A007D9A86 /* UITableViewCellExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A787C42AF6E47A007D9A86 /* UITableViewCellExt.swift */; };
+		52A787C82AF9A102007D9A86 /* TaskListDragDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A787C72AF9A102007D9A86 /* TaskListDragDelegate.swift */; };
+		52A787CA2AF9A177007D9A86 /* TaskListDropDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A787C92AF9A177007D9A86 /* TaskListDropDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		527BFD1D2AF28F2C00719F61 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
 		527BFD1F2AF291AF00719F61 /* TasksTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksTVC.swift; sourceTree = "<group>"; };
 		52A787C42AF6E47A007D9A86 /* UITableViewCellExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellExt.swift; sourceTree = "<group>"; };
+		52A787C72AF9A102007D9A86 /* TaskListDragDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListDragDelegate.swift; sourceTree = "<group>"; };
+		52A787C92AF9A177007D9A86 /* TaskListDropDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListDropDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				52A787C42AF6E47A007D9A86 /* UITableViewCellExt.swift */,
+				52A787C72AF9A102007D9A86 /* TaskListDragDelegate.swift */,
+				52A787C92AF9A177007D9A86 /* TaskListDropDelegate.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -217,6 +223,7 @@
 			files = (
 				527BFD022AF2886300719F61 /* TasksListTVC.swift in Sources */,
 				527BFCFE2AF2886300719F61 /* AppDelegate.swift in Sources */,
+				52A787CA2AF9A177007D9A86 /* TaskListDropDelegate.swift in Sources */,
 				52A787C52AF6E47A007D9A86 /* UITableViewCellExt.swift in Sources */,
 				527BFD1C2AF28F1400719F61 /* TasksListModel.swift in Sources */,
 				527BFD1A2AF28ED100719F61 /* StorageManager.swift in Sources */,
@@ -224,6 +231,7 @@
 				527BFD1E2AF28F2C00719F61 /* ListModel.swift in Sources */,
 				527BFD002AF2886300719F61 /* SceneDelegate.swift in Sources */,
 				527BFD082AF2886300719F61 /* RealmDBCW.xcdatamodeld in Sources */,
+				52A787C82AF9A102007D9A86 /* TaskListDragDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
